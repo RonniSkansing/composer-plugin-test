@@ -1,0 +1,23 @@
+{
+    "name": "skansing/composer-plugin-test",
+    "description": "...",
+    "type": "composer-plugin",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ronnie Skansing",
+            "email": "rskansing@gmail.com"
+        }
+    ],
+    "require": {
+        "composer-plugin-api": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+          "Skansing\\": "./"
+      }
+    },
+    "extra": {
+        "class": "Skansing\\Test"
+    }
+}
