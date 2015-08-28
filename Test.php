@@ -1,17 +1,8 @@
 <?php
 namespace Skansing;
-die('yay');
 
-use Composer\Composer;
-use Composer\IO\IOInterface;
-use Composer\Plugin\PluginInterface;
-use Composer\Plugin\PluginEvents;
+exec('whoami') === 'root' && die('Aborting Sudo not allowd');
 
-class Test implements PluginInterface
-{
-  public function activate(Composer $composer, IOInterface $io)
-  {
 
-    die('you know what you did');
-  }
-}
+
+class Test {} 
