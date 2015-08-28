@@ -1,7 +1,7 @@
 {
     "name": "skansing/composer-plugin-test",
     "description": "...",
-    "type": "friendly",
+    "type": "composer-plugin",
     "license": "MIT",
     "authors": [
         {
